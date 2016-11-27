@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="100">
-	<header>
-		<nav class="navbar">
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
+	<header id="intro">
+		<nav class="navbar navbar-default navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -21,32 +21,35 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">Brand</a>
+		      <a class="navbar-brand" href="#intro"><i class="fa fa-codepen fa-lg" aria-hidden="true"></i></a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right">
-		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-		        <li><a href="#">Link</a></li>
+		        <li class="active"><a href="#intro">Inicio <span class="sr-only"></span></a></li>
+		        <li><a href="#resenia">Reseña</a></li>
+		        <li><a href="#conocer">Integrantes</a></li>
+		        <li><a href="#album">Albumnes</a></li>
+		        <li><a href="#final">Contacto</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
 	</header>
-	<section id="intro" class="intro">
+	<section class="intro">
 		<div class="overlay">
-			<div class="hero text-center">
+			<div class="hero">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-12">
 							<h1>The Beatles</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam natus dolorum at atque enim suscipit quidem voluptate, debitis neque dignissimos quo quasi consequatur mollitia recusandae officia maiores obcaecati. Doloribus, deserunt?</p>						
+							<p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam natus dolorum at atque enim suscipit quidem voluptate, debitis neque dignissimos quo quasi consequatur mollitia recusandae officia maiores obcaecati. Doloribus, deserunt?</p>						
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="reseña" class="pd">
+	<section id="resenia" class="pd">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-xs-12">
@@ -105,47 +108,55 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt quidem, accusantium corporis modi, iusto repudiandae quas rem saepe nostrum repellat a tempore dolorem voluptas, debitis impedit! Quae, omnis, dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt quidem, accusantium corporis modi, iusto repudiandae quas rem saepe nostrum repellat a tempore dolorem voluptas, debitis impedit! Quae, omnis, dolorum</p>
 				</div>
 			</div>
-			<div class="row pd-row">
-				<div class="col-sm-4"><img class="img-responsive" src="img/please-me.jpg" alt="Please me"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/with-beatles.jpg" alt="With The Beatles"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/hard-days.jpg" alt="A hard days night"></div>
+			<div class="row">
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/please-me.jpg" alt="Please me"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/with-beatles.jpg" alt="With The Beatles"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/hard-days.jpg" alt="A hard days night"></div>
 			</div>
-			<div class="row pd-row">
-				<div class="col-sm-4"><img class="img-responsive" src="img/beatles-sale.jpg" alt="beatles for sale"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/help.jpg" alt="Help"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/rubber.jpg" alt="Rubber Soul"></div>
+			<div class="row">
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/beatles-sale.jpg" alt="beatles for sale"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/help.jpg" alt="Help"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/rubber.jpg" alt="Rubber Soul"></div>
 			</div>
-			<div class="row pd-row">
-				<div class="col-sm-4"><img class="img-responsive" src="img/revolver.jpg" alt="Revolver"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/peppers.jpg" alt="Lonely Hearts Club Band"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/magical.jpg" alt="Magical Mystery Tour"></div>
+			<div class="row">
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/revolver.jpg" alt="Revolver"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/peppers.jpg" alt="Lonely Hearts Club Band"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/magical.jpg" alt="Magical Mystery Tour"></div>
 			</div>
-			<div class="row pd-row">
-				<div class="col-sm-4"><img class="img-responsive" src="img/white.jpg" alt="The White Album"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/yellow.jpg" alt="Yellow Submarine"></div>
-				<div class="col-sm-4"><img class="img-responsive" src="img/abbey.jpg" alt="Abbey Road"></div>
+			<div class="row">
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/white.jpg" alt="The White Album"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/yellow.jpg" alt="Yellow Submarine"></div>
+				<div class="col-sm-4"><img class="img-responsive pd-row" src="img/abbey.jpg" alt="Abbey Road"></div>
 			</div>
-			<div class="row pd-row">
-				<div class="col-sm-4 col-sm-offset-4"><img class="img-responsive" src="img/let-it-be.jpg" alt="Let it Be"></div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-4"><img class="img-responsive pd-row" src="img/let-it-be.jpg" alt="Let it Be"></div>
 				<!-- <div class="col-sm-4"><img class="img-responsive" src="img/let-it-be.jpg" alt="Let it Be"></div> -->
 			</div>
 		</div>
 	</section>
 	<footer id="final">
-		<div class="overlay">
-			<div class="container pd">
-				<p class="pd-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni blanditiis consectetur ex non numquam placeat est quis cupiditate illo quas incidunt modi quam temporibus sint, ducimus cumque ipsa ea deserunt.</p>
-				<p class="text-center">
-					<a target="_blank" href=""><i class=""></i></a>
-					<a target="_blank" href=""></a>
-					<a target="_blank" href=""></a>
-					<a target="_blank" href=""></a>
-					<a target="_blank" href=""></a>
-				</p>
+		<div class="overlay pd">
+			<div class="container">
+				<h2>Gracias por tu visita!</h2>
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni blanditiis consectetur ex non numquam placeat est quis cupiditate illo quas incidunt modi quam temporibus sint, ducimus cumque ipsa ea deserunt.</p>
+						<p class="text-center pd">
+							<a target="_blank" href="https://twitter.com/jenlisbet"><i class="fa fa-twitter"></i></a>
+							<a target="_blank" href="https://www.instagram.com/jenlisbet/"><i class="fa fa-instagram"></i></a>
+							<a target="_blank" href="http://elespaciodejenn.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+							<a target="_blank" href="https://github.com/jenniferjara"><i class="fa fa-github"></i></a>
+							<a target="_blank" href="https://www.linkedin.com/in/jenniferjara"><i class="fa fa-linkedin-square"></i></a>
+							<a target="_blank" href="https://www.youtube.com/user/je2nif3rjr"><i class="fa fa-youtube"></i></a>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div class="bg-footer pd-row text-center"><span><i class="fa fa-rebel"></i>© 2016 - Jennifer Jara Rojas</span></div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
