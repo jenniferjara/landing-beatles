@@ -1,1 +1,73 @@
-main.css
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+  font-family: 'BOOTLE';
+  src: url('../fonts/bootle.TTF');
+}
+/***************************/
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	height: 100%;
+}
+a{color: #444}
+/**************/
+.navbar{
+	margin: 0px;
+	z-index: 10;
+}
+#intro{background-image: url(../img/fondo.jpg);}
+.intro{
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    overflow: hidden;
+    min-height: 600px;
+	position: relative;
+    width: 100%;
+    height: 93vh;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.overlay{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(93,101,107,0.7);
+}
+.hero{
+	position: relative;
+    width: 100%;
+    padding: 100px 0;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.intro h1{
+	font-family: 'BOOTLE',sans-serif;
+	letter-spacing: 2px;
+	font-size: 5em;
+}
+/*************************/
+.heading{
+	font-weight: bold;
+	margin-bottom: 3%;
+}
+.heading:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin: 20px 0 20px;
+    background: #555;
+}
+/******************/
+@media (max-width: 991px){
+	
+}
